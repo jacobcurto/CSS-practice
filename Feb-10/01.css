@@ -1,0 +1,39 @@
+/* Colors */
+:root {
+  --color-1: #59057d;
+  --color-2: #bd69e0;
+  }
+  
+  /* background color 100% of viewport*/
+  body{
+    margin: 0;
+    padding: 0;
+    background: #e3d5e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+  }
+  
+  /* black border */
+  .container
+  {
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    border: 5px solid
+  }
+  
+  /* styles for the boxes */
+  .b
+  {
+    width: 75px;
+    height: 25%;
+    border: 5px solid;
+    border-color: var(--color-2);
+    background: var(--color-1);
+    color: white;
+    border-radius: 15%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }

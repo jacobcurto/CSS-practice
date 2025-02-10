@@ -1,0 +1,84 @@
+/* Colors */
+:root {
+    --color-1: #59057d;
+    --color-2: #bd69e0;
+    }
+    
+    /* background color 100% of viewport*/
+    body{
+      margin: 0;
+      padding: 0;
+      background: #e3d5e8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;  
+    }
+    
+    /* black border */
+    .container
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 80%;
+      height: 350px;
+      margin: 0 auto;
+      border: 5px solid
+    }
+    
+    /* styles for the boxes */
+    .b
+    {
+      border: 5px solid;
+      border-color: var(--color-2);
+      background: var(--color-1);
+      color: white;
+      border-radius: 15%;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .item-1
+    {
+      width: 75px;
+      height: 15%;
+      text-align: center;
+    }
+    
+    .item-2
+    {
+      width: 150px;
+      height: 15%;
+      text-align: center;
+      padding-top: 5%;
+    }
+    
+    .item-3
+    {
+      width: 150px;
+      height: 10%;
+      text-align: left;
+      
+    }
+    .item-3:hover {
+      transition: width 2s;
+      width: 200px;
+      transition-timing-function: ease-in-out;
+    }
+    
+    
+    /* highlight when hover */
+    .H
+    {
+      transition: background 1.1s;
+      transition: border 1.1s;
+      transition-timing-function: ease-in-out;
+    }
+    
+    .H:hover {
+      border: 5px solid;
+      border-color: var(--color-1);
+      background: var(--color-2);
+    }
+    
