@@ -1,0 +1,52 @@
+/* Colors */
+:root {
+    --ruby: #cf0000;
+    --light: #ff7575;
+    --dark: #3d0000;
+    }
+    
+    /* background color 100% of viewport*/
+    body{
+      margin: 0;
+      padding: 0;
+      background: #e3d5e8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;  
+    }
+    
+    /* black border */
+    .container
+    {
+      display: flex;
+      background: var(--dark);
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 80%;
+      height: 350px;
+      margin: 0 auto;
+      border: 5px solid
+    }
+    /* buttons */
+    .b
+    {
+      height:15%;
+      width:25%;
+      color: var(--light);
+      text-align: center;
+      align-content: center;
+      background-color: var(--dark);
+      transition: all 1.4s;
+    }
+    
+    .b:hover {
+    background-color: var(--light);
+    border: solid 3px;
+    border-radius: 5%;
+    color: var(--ruby);
+    width: 30%;
+    height: 20%;
+    cursor: grab;
+    }
